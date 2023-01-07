@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2b2b2c;
+    padding: 10px;
+}
+    .grid-container > div {
+        text-align: center;
+        }
+    .item1 {
+        grid-column: 1 / span 3;
+        background-color: #cacacb;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px; 
+        border-radius: 25px;
+        
+    }
+    .item2 {
+        background-color: #646464;
+        border: 2px solid rgb(0, 0, 0);
+    }
+.cricle {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgb(255, 0, 0);
+        margin: 30px auto;
+    }
